@@ -4957,3 +4957,18 @@ blockquote.classic-blockquote-post::after {
     font: bold 2em "Poppins", sans-serif;
   }
 }
+
+
+.contact-map {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.contact-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
